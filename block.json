@@ -1,0 +1,22 @@
+{
+    "apiVersion": 3,
+    "name": "dream-cgpa/calculator",
+    "title": "Dream CGPA Calculator",
+    "category": "widgets",
+    "icon": "calculator",
+    "description": "Calculate and display semester-wise GPA and overall CGPA",
+    "textdomain": "dream-cgpa-calculator",
+  
+    "attributes": {
+      "semesters": {
+        "type": "array",
+        "default": []
+      }
+    },
+  
+    "editorScript": "file:./index.js",
+    "viewScript": "file:./index.js",
+    "style": "file:./style-index.css",
+    "editorStyle": "file:./index.css"
+  }
+  

@@ -1,0 +1,15 @@
+{
+  "name": "dream-cgpa-calculator",
+  "version": "1.0.0",
+  "description": "Dream CGPA Calculator Gutenberg block.",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "postbuild": "cp block.json build/block.json"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  },
+  "license": "GPL-2.0-or-later"
+}
